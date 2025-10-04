@@ -1,24 +1,24 @@
 import React from 'react';
 import SectionTitle from './components/SectionTitle';
 import SubTitle from '../components/SubTitle';
-import { Cpu, ShieldCheck, MessageSquare } from 'lucide-react';
+import { Eye, Brain, Home } from 'lucide-react';
 
 const Features = () => {
   const features = [
     {
-      icon: <Cpu className="h-12 w-12 text-teal-400" />,
-      title: 'AI-Powered',
-      desc: 'Our advanced AI ensures your communication is seamless, natural, and lightning-fast.',
+      icon: <Eye className="w-8 h-8 text-blue-400" />,
+      title: 'Blink-to-Speech Conversion',
+      desc: 'Enables users to communicate using eye movements. Blinks are translated into meaningful speech output.',
     },
     {
-      icon: <ShieldCheck className="h-12 w-12 text-indigo-400" />,
-      title: 'Secure & Private',
-      desc: 'Your messages are encrypted and processed securely with zero data leaks.',
+      icon: <Brain className="h-8 w-8 text-green-400" />,
+      title: 'Adapted Communication Profiles',
+      desc: 'Personalized for each user’s abilities and needs, making SilentVoice truly inclusive and flexible.',
     },
     {
-      icon: <MessageSquare className="h-12 w-12 text-pink-400" />,
-      title: 'Universal Compatibility',
-      desc: 'Works across devices, platforms, and languages with real-time adaptability.',
+      icon: <Home className="h-8 w-8 text-purple-400" />,
+      title: 'Smart Room Automation',
+      desc: 'Control lights, fans, and other devices with blink-based or silent commands, empowering independence at home.',
     },
   ];
 
